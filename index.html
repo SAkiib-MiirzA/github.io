@@ -872,16 +872,14 @@
                <li><a href="https://github.com/SAkib-MiirzA"><i class="fa fa-github"></i></a></li>
             </ul>
 
-            <ul class="copyright" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-               <li style="color: rgb(121, 109, 109);">&copy; SAkib MirzA | All Rights Reserved | <span id="year">2026</span></li>
-               <li>
-                  <button id="admin-toggle-btn" onclick="openAdminPanel()" title="Admin Access" 
-                          style="background: transparent; border: none; color: #555; cursor: pointer; font-size: 13px; padding: 0; margin-left: 4px; transition: color 0.3s;"
-                          onmouseover="this.style.color='#ffa600'" onmouseout="this.style.color='#555'">
-                     <i class="fa fa-lock"></i>
-                  </button>
-               </li>
-            </ul>
+			<div class="copyright" style="display: flex; justify-content: center; align-items: center; gap: 8px; color: rgb(121, 109, 109); font-size: 14px; line-height: 1.4;">
+               <span>&copy; SAkib MirzA | All Rights Reserved | <span id="year">2026</span></span>
+               <button id="admin-toggle-btn" onclick="openAdminPanel()" title="Admin Access"
+                       style="background: transparent; border: none; color: #555; cursor: pointer; font-size: 13px; line-height: 1; padding: 0; margin: 0; vertical-align: middle; transition: color 0.3s;"
+                       onmouseover="this.style.color='#ffa600'" onmouseout="this.style.color='#555'">
+                  <i class="fa fa-lock" style="line-height: 1; vertical-align: middle;"></i>
+               </button>
+            </div>
 
             <!-- Password-Protected Visitor Logs Section (Hidden by Default) -->
             <div id="admin-visitor-section" style="display: none; max-width: 800px; margin: 25px auto; background: #1e2227; color: #e0e0e0; padding: 20px; border-radius: 8px; border: 1px solid #333; text-align: left; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
